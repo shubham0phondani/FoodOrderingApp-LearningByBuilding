@@ -250,10 +250,18 @@ These are static files that can be uploaded to any server.
 * Use bundlers to prepare your app for production
 * Understand dependencies deeply, not just copy commands
 
+<<<<<<< HEAD
 -----
 Let your curiosity guide you. Every tool exists to solve a real-world problem. When you understand the problem, the tool makes perfect sense.
 --------
 
+=======
+---
+
+Let your curiosity guide you. Every tool exists to solve a real-world problem. When you understand the problem, the tool makes perfect sense.
+
+----------------------------------------------------s
+>>>>>>> d57af0c440de490f4d2b7da2eb88125aab10cc7d
 # EP 2 Pt 2
 
 # Deep Understanding of Parcel, npx, Bundlers, Imports, and Development Flow
