@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
 /**
  * <div id = "parent">
  *      <div id = "child">
@@ -14,7 +16,7 @@
 const parent = React.createElement(
     "div", { id: "parent" },
     [React.createElement("div", { id: "child" },
-        [React.createElement("h1", {}, "Hello Bhaiya"),
+        [React.createElement("h1", {}, "Hello Janu"),
         React.createElement("h5", {}, "Bye Bhaiya")]),    
         React.createElement("div", { id: "child" },
         [React.createElement("h1", {}, "Hello Bhaiya"),
