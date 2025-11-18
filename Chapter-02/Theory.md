@@ -249,9 +249,10 @@ These are static files that can be uploaded to any server.
 * Always ignore node_modules
 * Use bundlers to prepare your app for production
 * Understand dependencies deeply, not just copy commands
-------
+----
 Let your curiosity guide you. Every tool exists to solve a real-world problem. When you understand the problem, the tool makes perfect sense.
--------
+-----
+
 # EP 2 Pt 2
 
 # Deep Understanding of Parcel, npx, Bundlers, Imports, and Development Flow
