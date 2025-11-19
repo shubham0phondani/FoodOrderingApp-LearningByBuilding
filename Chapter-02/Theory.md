@@ -22,7 +22,7 @@ If we handled this manually, it would be chaotic, error-prone, and unmanageable.
 * Tracks their versions
 * Installs their dependencies automatically
 
-That system is **npm**.
+That system is **npm**. Not node package manager
 
 ---
 
