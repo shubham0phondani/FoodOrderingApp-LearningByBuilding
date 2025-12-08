@@ -1,5 +1,4 @@
 # Ep 4 pt 1
-
 # Building a Dynamic Restaurant App in React — A Practical Breakdown
 
 ## 1. Why Planning Matters (from someone who shipped too many messy apps)
