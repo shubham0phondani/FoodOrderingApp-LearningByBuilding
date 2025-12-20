@@ -21,14 +21,15 @@
 }
 
 .res-card{
-    width: 200px;
+    width: 280px;
+    height: 580px;
     padding: 5px;
     cursor: pointer;
     margin: 2px;
     background-color: bisque;
 }
 .res-card-shimmer{
-    width: 200px;
+    width: 300px;
     padding: 5px;
     cursor: pointer;
     margin: 2px;
@@ -49,13 +50,13 @@
 
 .res-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .res-container-shimmer{
     margin-top: 35px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
 }
 
 .filter-btn{
@@ -73,4 +74,9 @@
 
 .wtf:active{
     color: white;
+}
+
+.linkedIn{
+    text-decoration: none;
+    color: black;
 }
