@@ -42,11 +42,12 @@ const Body = () => {
             </div>
             :
             <div className="body">
-                <div className="filterr">
+                <div className="p-2">
                     <div className="search">
-                        <input type="text" className="search-box" value={searchText} onChange={(e)=>setSearchText(e.target.value)}/>
-                        <button onClick={()=>{
-                            
+                        <input type="text" className="mr-4 border-2 border-black" value={searchText} onChange={(e)=>setSearchText(e.target.value)}/>
+                        <button 
+                        className="border-2 p-1 border-black"
+                        onClick={()=>{    
                             const filteredRestaurant = listofRestaurant.filter((res)=>
                                 res.card.card.info.name.toLowerCase().includes(searchText.toLowerCase())
                             );
@@ -64,10 +65,10 @@ const Body = () => {
                         setfilteredData(filteredList);
                     }
                     } 
-                    className="filter-btn">Top Rated Restaurant
+                    className="border-2 p-2 border-black">Top Rated Restaurant
                     </button>
                 </div>
-                <div className="res-container">
+                <div className="grid grid-cols-4 gap-1 px-2">
                     {filteredData.map((data)=>{
                         return ( 
                         <Link className="linkedIn" to={"/restaurants/" + data.card.card.info.id} key={data.card.card.info.id}>
@@ -80,5 +81,4 @@ const Body = () => {
         </>
     )
 }
-// 2:10:31
 export default Body

@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/shubham0phondani/FoodOrderingApp-LearningByBuilding#readme",
   "devDependencies": {
-    "parcel": "^2.16.1"
+    "autoprefixer": "^10.4.23",
+    "parcel": "^2.16.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
   },
   "dependencies": {
     "react": "^19.2.0",

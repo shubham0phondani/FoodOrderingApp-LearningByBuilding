@@ -7,31 +7,31 @@ const Header = () => {
     const onlineStatus = useOnlineStatus();
 
     return (
-        <div className="header">
+        <div className="flex justify-between shadow-lg bg-orange-50 sm:bg-slate-50">
             <div>
                 <Link to={"/"}>                
-                <img className="logo" src={LOGO_URL} />
+                <img className="w-20" src={LOGO_URL} />
                 </Link>
             </div>
             <div className="nav-items">
-                <ul>
+                <ul className="flex p-4 m-4 w-500 justify-between">
                     <li>
                         onlineStatus : {onlineStatus === false ? "🍎" : "🤢"}
                     </li>
                     <li>
-                        <Link className="wtf" to={"/"} >Home</Link>
+                        <Link className="m-5" to={"/"} >Home</Link>
                     </li>
                     <li>
-                        <Link className="wtf" to={"/contact"} >Contact Us</Link>
+                        <Link className="m-5" to={"/contact"} >Contact Us</Link>
                     </li>
                     <li>
-                        <Link className="wtf" to={"/grocery"}>Grocery</Link>
+                        <Link className="m-5" to={"/grocery"}>Grocery</Link>
                     </li>
                     <li>
-                        <Link className="wtf" to={"/about"} >About</Link>
+                        <Link className="m-5" to={"/about"} >About</Link>
                     </li>
                     <li>
-                        <Link className="wtf" to={"/cart"}>Cart</Link>
+                        <Link className="m-5" to={"/cart"}>Cart</Link>
                     </li>
                 </ul>
             </div>
